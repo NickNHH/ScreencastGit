@@ -6,14 +6,15 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Ask user after his name
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
+        // Ask user after his input
+        System.out.print("Enter some input: ");
+        String input = scanner.nextLine();
 
-        // Reverse the user name
-        String reversedName = String.valueOf(new StringBuilder(name).reverse());
+        // Reverse the user input
+        String reversedName = String.valueOf(new StringBuilder(input).reverse());
 
-        // Print reversed name
-        System.out.println("Your name in reverse is: " + reversedName);
+        // Print reversed input
+        System.out.println("Your input in reverse is: " + reversedName);
+        System.out.println();
     }
 }
