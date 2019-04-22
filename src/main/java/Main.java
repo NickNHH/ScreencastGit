@@ -15,5 +15,8 @@ public class Main {
 
         // Print reversed name
         System.out.println("Your name in reverse is: " + reversedName);
+
+        // Print goodbye message
+        System.out.println("See ya later, alligator!");
     }
 }
